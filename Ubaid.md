@@ -16,7 +16,9 @@ FR-06: Mission Control shall receive the execution status of each command sent t
 2. Non-Functional Requirements (NFRs)
 NFR-01: The system shall continue operating normally during temporary communication interruptions and shall recover when communication is restored.
 
-NFR-02: Only authenticated Mission Control operators shall be permitted to issue rover commands.
+NFR-02:
+The system shall require authenticated and role-authorized
+operators before accepting rover commands.
 
 NFR-04:
 The system shall support at least 20 simultaneously

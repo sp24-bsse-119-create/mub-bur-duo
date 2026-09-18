@@ -18,6 +18,8 @@ NFR-01: The system shall continue operating normally during temporary communicat
 
 NFR-02: Only authenticated Mission Control operators shall be permitted to issue rover commands.
 
-NFR-03: Command processing should normally be completed within 5 seconds after the command is received by the rover.
+NFR-04:
+The system shall support at least 20 simultaneously
+connected rovers.
 
 NFR-04: The system shall support communication with multiple rovers simultaneously.

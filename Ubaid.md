@@ -5,7 +5,9 @@ FR-02: The rover shall receive and execute valid commands sent by Mission Contro
 
 FR-03: The rover shall report its current position, battery level, temperature, and communication status to Mission Control.
 
-FR-04: The rover shall enter Safe Mode when a critical battery or thermal condition is detected.
+FR-04: The rover shall enter Safe Mode within 3 seconds when
+battery temperature exceeds the critical threshold or
+battery capacity falls below the defined emergency level.
 
 FR-05: The system shall reject invalid or unauthorized commands before they are sent to the rover.
 
